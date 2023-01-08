@@ -3,7 +3,7 @@ local webh = "https://discord.com/api/webhooks/1060311652181999627/CpkZ9TBedgn2F
 -- // Variables
 local mps = game:GetService("MarketplaceService")
 local hs = game:GetService('HttpService')
-local req = syn.request or request or http_request
+local req = request or http_request
 -- // Main
 local err, statement = pcall(function()
    local info = mps:GetProductInfo(game.PlaceId)
